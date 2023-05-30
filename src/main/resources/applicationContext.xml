@@ -11,4 +11,9 @@
           class="ru.malyushov.springcourse.RapMusic">
     </bean>
 
+    <bean id="musicPlayer"
+        class="ru.malyushov.springcourse.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
