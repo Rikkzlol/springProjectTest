@@ -17,7 +17,7 @@ public class SpringTest {
        //musicPlayer.playMusic();
 
         Computer computer = context.getBean("computer", Computer.class);
-        System.out.println(computer);
+//        System.out.println(computer);
 
         context.close();
     }
